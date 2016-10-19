@@ -1,3 +1,16 @@
+# Ignore VSCode, JetBrains project directory and iml files
+.vscode/
+.idea/
+*.iml
+
+# Ignore build directories with common names
+build/
+lib/
+target/
+
+# Meta data of macOS Finder.app
+.DS_Store
+
 CMakeLists.txt.user
 Examples/Monocular/mono_euroc
 Examples/Monocular/mono_kitti
@@ -18,7 +31,4 @@ Thirdparty/g2o/build/
 Thirdparty/g2o/config.h
 Thirdparty/g2o/lib/
 Vocabulary/ORBvoc.txt
-build/
 *~
-lib/
-
